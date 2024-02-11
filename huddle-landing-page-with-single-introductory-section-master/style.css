@@ -1,0 +1,136 @@
+.attribution {
+    font-size: 15px;
+    text-align: center;
+    bottom: 0%;
+    color:white;
+    margin-left: 20px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+body{
+    background-image: url(./images/bg-desktop.svg);
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    font-family: "open-sans", sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+    flex-direction:column ;
+    overflow-x: hidden;
+    width: 100%;
+}
+.text{
+    color: white;
+    font-family: "open sans";
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+h1{
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.img{
+    padding: 20px;
+}
+.flex{
+    
+    display: flex;
+    flex-flow: row;
+    margin-top: 20px;
+}
+
+.button{
+    border-radius: 80px;
+    margin-left: 10px;
+    background-color: white;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    color: hsl(257, 40%, 49%);
+    border: 1px solid white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.social-icons{
+    color: white;
+    bottom: 0%;
+    display: flex;
+    justify-content: end;
+    margin-top: -36px;
+    margin-right: 60px;
+}
+.social-icons i{
+    padding-left: 18px;
+}
+footer{
+    margin-top: auto;
+    width:100%;
+
+}
+.fa-brands{
+    width:20px;
+}
+@media screen and (max-width : 1000px)
+{
+    body{
+        background-image: url(./images/bg-mobile.svg);
+        background-color: hsl(257, 40%, 49%);
+        background-size: cover;
+        font-family: "open-sans", sans-serif;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        text-align: center;
+    }
+    .logo{
+        width: 10rem;
+    }
+    .text{
+        margin-top: -40px;
+    }
+    .text h1{
+        font-family:"open sans";
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px;
+    }
+    .text p{
+        font-size: 15px;
+        font-weight: 100;
+        width: 80%;
+        margin-top: -15px;
+        margin-left: 30px;
+    }
+    .img img{
+        padding: 10%;
+        width: 18rem;
+        
+    }
+    .flex{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .button{
+        width: 130px;
+        height: 40px;
+        font-size: 17px;
+    }
+    .social-icons{
+        justify-content: center;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    .attribution p{
+        margin-top: -60px;
+        font-size: 12px;
+        margin-left: 35px;
+    }
+    .fa-brands{
+        width:20px;
+    
+    }
+
+}
